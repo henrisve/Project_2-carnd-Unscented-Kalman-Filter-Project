@@ -67,6 +67,9 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  MatrixXd R_radar;
+  MatrixXd R_laser; 
+
 
   /**
    * Constructor
